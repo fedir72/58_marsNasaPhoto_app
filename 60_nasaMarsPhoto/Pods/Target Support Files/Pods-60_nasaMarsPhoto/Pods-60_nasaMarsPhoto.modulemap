@@ -1,0 +1,6 @@
+framework module Pods_60_nasaMarsPhoto {
+  umbrella header "Pods-60_nasaMarsPhoto-umbrella.h"
+
+  export *
+  module * { export * }
+}
