@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,7 @@
 		A32EF60C24FFCA0B000252EA /* RoverCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A32EF60A24FFCA0B000252EA /* RoverCell.xib */; };
 		A32EF60F24FFCEDE000252EA /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32EF60E24FFCEDE000252EA /* Utils.swift */; };
 		A32EF61224FFD4BE000252EA /* ModelPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32EF61124FFD4BE000252EA /* ModelPhoto.swift */; };
+		A32EF61524FFD971000252EA /* NasaNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32EF61424FFD971000252EA /* NasaNetwork.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		A32EF60A24FFCA0B000252EA /* RoverCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RoverCell.xib; sourceTree = "<group>"; };
 		A32EF60E24FFCEDE000252EA /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		A32EF61124FFD4BE000252EA /* ModelPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelPhoto.swift; sourceTree = "<group>"; };
+		A32EF61424FFD971000252EA /* NasaNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaNetwork.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				A32EF5F424FFB684000252EA /* AppDelegate.swift */,
 				A32EF5F624FFB684000252EA /* SceneDelegate.swift */,
 				A32EF5F824FFB684000252EA /* ViewController.swift */,
+				A32EF61324FFD93A000252EA /* Network */,
 				A32EF61024FFD477000252EA /* Models */,
 				A32EF60D24FFCEB2000252EA /* Utils */,
 				A32EF60824FFC9B9000252EA /* Cells */,
@@ -118,13 +121,20 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		A32EF61324FFD93A000252EA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A32EF61424FFD971000252EA /* NasaNetwork.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		D8F40CD471357BD464CAEB6D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				6CFC2063EFE54EE1DF97B4F8 /* Pods-60_nasaMarsPhoto.debug.xcconfig */,
 				8AF9B45F8D4E31284BC43538 /* Pods-60_nasaMarsPhoto.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -249,6 +259,7 @@
 				A32EF60B24FFCA0B000252EA /* RoverCell.swift in Sources */,
 				A32EF5F924FFB684000252EA /* ViewController.swift in Sources */,
 				A32EF5F524FFB684000252EA /* AppDelegate.swift in Sources */,
+				A32EF61524FFD971000252EA /* NasaNetwork.swift in Sources */,
 				A32EF5F724FFB684000252EA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
