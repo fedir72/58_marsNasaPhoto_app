@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4621C8C1-CD6F-49A0-B91A-49627E3CDDDB"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "75AE69B2-EEFE-4D3D-B751-34DA14221C07"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "60_nasaMarsPhoto/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "75AE69B2-EEFE-4D3D-B751-34DA14221C07 - 8c83db43dbba998a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (_0_nasaMarsPhoto.NetData) -&gt; () in _0_nasaMarsPhoto.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "60_nasaMarsPhoto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fedir72/Desktop/Git000/60_NasaPhotoFromMars/60_nasaMarsPhoto/60_nasaMarsPhoto/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "158">
+               </Location>
+               <Location
+                  uuid = "75AE69B2-EEFE-4D3D-B751-34DA14221C07 - 782a26f29e02feb8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (_0_nasaMarsPhoto.NetData) -&gt; () in _0_nasaMarsPhoto.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "60_nasaMarsPhoto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fedir72/Desktop/Git000/60_NasaPhotoFromMars/60_nasaMarsPhoto/60_nasaMarsPhoto/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "87">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
