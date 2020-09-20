@@ -9,6 +9,6 @@ target '60_nasaMarsPhoto' do
 
   pod 'SDWebImage', '~> 5.0'
   pod 'Alamofire', '~> 5.2'
-
+  pod 'Moya', '~> 14.0'
 
 end

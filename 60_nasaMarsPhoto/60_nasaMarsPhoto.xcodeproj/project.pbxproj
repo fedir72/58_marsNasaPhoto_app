@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0E91EF20A4E7D6877AE89EED /* Pods_60_nasaMarsPhoto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72C170ECD90822FF1E6A5F6D /* Pods_60_nasaMarsPhoto.framework */; };
+		A32C0D352511253F00F404F0 /* MoyaNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32C0D342511253F00F404F0 /* MoyaNetwork.swift */; };
 		A32EF5F524FFB684000252EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32EF5F424FFB684000252EA /* AppDelegate.swift */; };
 		A32EF5F724FFB684000252EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32EF5F624FFB684000252EA /* SceneDelegate.swift */; };
 		A32EF5F924FFB684000252EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32EF5F824FFB684000252EA /* ViewController.swift */; };
@@ -25,6 +26,7 @@
 		6CFC2063EFE54EE1DF97B4F8 /* Pods-60_nasaMarsPhoto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-60_nasaMarsPhoto.debug.xcconfig"; path = "Target Support Files/Pods-60_nasaMarsPhoto/Pods-60_nasaMarsPhoto.debug.xcconfig"; sourceTree = "<group>"; };
 		72C170ECD90822FF1E6A5F6D /* Pods_60_nasaMarsPhoto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_60_nasaMarsPhoto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AF9B45F8D4E31284BC43538 /* Pods-60_nasaMarsPhoto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-60_nasaMarsPhoto.release.xcconfig"; path = "Target Support Files/Pods-60_nasaMarsPhoto/Pods-60_nasaMarsPhoto.release.xcconfig"; sourceTree = "<group>"; };
+		A32C0D342511253F00F404F0 /* MoyaNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaNetwork.swift; sourceTree = "<group>"; };
 		A32EF5F124FFB684000252EA /* 60_nasaMarsPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 60_nasaMarsPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A32EF5F424FFB684000252EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A32EF5F624FFB684000252EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				A32EF61424FFD971000252EA /* NasaNetwork.swift */,
+				A32C0D342511253F00F404F0 /* MoyaNetwork.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 				A32EF60F24FFCEDE000252EA /* Utils.swift in Sources */,
 				A32EF60B24FFCA0B000252EA /* RoverCell.swift in Sources */,
 				A32EF5F924FFB684000252EA /* ViewController.swift in Sources */,
+				A32C0D352511253F00F404F0 /* MoyaNetwork.swift in Sources */,
 				A32EF5F524FFB684000252EA /* AppDelegate.swift in Sources */,
 				A32EF61524FFD971000252EA /* NasaNetwork.swift in Sources */,
 				A32EF5F724FFB684000252EA /* SceneDelegate.swift in Sources */,

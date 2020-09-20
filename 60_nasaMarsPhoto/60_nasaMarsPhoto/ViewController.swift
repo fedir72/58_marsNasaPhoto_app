@@ -8,12 +8,15 @@
 
 import UIKit
 
-class ViewController: UIViewController ,UITableViewDataSource,UITableViewDelegate{
+class ViewController: UIViewController ,UITableViewDataSource,UITableViewDelegate, UIScrollViewDelegate {
     var arrayPhotos = [Photo]()
     
     @IBOutlet weak var tableview: UITableView!
     
     var network = NasaNetwork()
+    
+    var moyaNetwork = MoyaNetwork()
+    
     
     
     override func viewDidLoad() {
@@ -22,15 +25,28 @@ class ViewController: UIViewController ,UITableViewDataSource,UITableViewDelegat
         
         setupTableView()
         
-        network.getData { (netData) in
-            if let photos = netData?.photos {
-                DispatchQueue.main.async {
-                    self.arrayPhotos = photos
-                    //print(self.arrPhotos)
+        moyaNetwork.getPhotos(success: { (data) in
+            
+                 DispatchQueue.main.async {
+                    self.arrayPhotos = data.photos
                     self.tableview.reloadData()
                 }
-            }
+        }) { (error) in
+            
+            
+            
         }
+        
+
+//        network.getData { (netData) in
+//            if let photos = netData?.photos {
+//                DispatchQueue.main.async {
+//                    self.arrayPhotos = photos
+//                    //print(self.arrPhotos)
+//                    self.tableview.reloadData()
+//                }
+//            }
+//        }
     }
     
     private func setupTableView() {
@@ -62,7 +78,9 @@ class ViewController: UIViewController ,UITableViewDataSource,UITableViewDelegat
     }
     
     
-    
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        print("DID scroll")
+    }
     
 }
 
